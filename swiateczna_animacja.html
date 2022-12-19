@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+  background-image: url(https://img.freepik.com/free-photo/nice-christmas-background-white-background-with-copy-space_24972-1722.jpg?w=2000);  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-color: green;
+  height: 1300px;
+}
+#snig
+{
+  margin-left:180px;
+  margin-top:40px;
+  float: left;
+  width: 70px;
+  animation-name: snig;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  position: relative;
+  transition-timing-function: ease-in;
+}
+#snig2
+{
+  margin-left:280px;
+  float: left;
+  width: 100px;
+  animation-name: snig;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  position: relative;
+  transition-timing-function: ease-in;
+}
+#ho
+{
+  right:40%;
+  width:460px;
+  top:40%;
+  position: absolute;
+}
+#ho2
+{
+ position: absolute;
+  right:30%;
+  width:250px;
+  top:62%;
+  margin-top: 1px;
+  margin-right:20px;
+  }
+@keyframes snig{
+  0%{;top:0px; transform: rotate(0deg);}
+  90%{top:630px; transform: rotate(315deg);}
+  100%{;top:0px; transform: rotate(0deg);}
+}
+p{
+  text-align: center;
+  transition: transform 8s;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-delay: 0.4s;
+  animation-iteration-count: infinite;
+  position: relative;
+  font-size: 50px;
+  font-family: Verdana, serif;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+  @keyframes example{
+  0%{color:red;}
+  13%{color:yellow;}
+  22%{color:blue; }
+  39.5%{color:green;}
+  52%{color:red;}
+  64.5%{color:yellow;}
+  78%{color:blue;}
+  100%{color:green}
+
+}
+#z{
+  height: 200px;
+}
+</style>
+</head>
+<body>
+<div><p id="aaa">Wesołych Świąt!</p></div>
+<div><img id="snig" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig2" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig" src="snieg.png"><img id="snig2" src="snieg.png"><img id="ho" src="choinka.png"><img id="ho2" src="choinka.png"></div>
+</body>
+</html>
